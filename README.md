@@ -24,6 +24,7 @@
 <img width="1869" height="921" alt="suporteAberto" src="https://github.com/user-attachments/assets/9f07c1a0-8120-4479-b79e-919c24f1b1b6" />
 <img width="1869" height="919" alt="suporteTicketAberto" src="https://github.com/user-attachments/assets/38982617-5586-4d5c-b92d-8fff09f3d50b" />
 <img width="1870" height="918" alt="suporteAutoatendimentoAberto" src="https://github.com/user-attachments/assets/d74793ec-2da8-43b0-978c-81b5c80d0349" />
+<br>
 <p>Por fim, tela de perfil com dados básicos do usuário e opção de <strong>sair da conta</strong> e a tela de produtos, para verificar os produtos já comprados.</p>
 <img width="1868" height="919" alt="perfilAberto" src="https://github.com/user-attachments/assets/f019eb11-6a80-4b6d-b432-b5147b105912" />
 <img width="1230" height="921" alt="telaMeusProdutosAberta" src="https://github.com/user-attachments/assets/730588d5-0b51-451e-a889-a1bf8fc68cfe" />
