@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+.topo-categoria {
+    text-align: center;
+    margin: auto;
+}
+
+.grid-estatico {
+    width: 100dvw;
+    display: flex;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    overflow: visible;
+}
+
+.slider-container {
+    width: 100dvw;
+    display: grid;
+    place-content: center;
+    overflow: visible;
+}
+
+.slider-track {
+    width: 100dvw;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+}
+
+.item {
+    width: 250px;   
+    height: 350px;
+    gap: 0px;
+    flex-shrink: 0; 
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(45deg, var(--corItensPreto), var(--corItensClaro),  var(--corItensEscuro));
+    border-radius: 8px;
+    box-shadow: 2px 2px 2px #00000073;
+}
+
+.caixa, .caixa img {
+    width: 90%;
+    height: 65%;
+    border-radius: 10px;
+}
+
+.texto {
+    width: 50%;
+    height: 20%;
+    background-color: var(--corPaginaEscuro);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.168);
+    border-radius: 8px;
+    padding: 5px;
+    font-size: .9em;
+}
+
+.texto > strong {
+    background-color: transparent;
+}
+
+@media (min-width: 600px) {
+.grid-estatico {
+    width: auto;
+    display: flex;
+    padding: 40px;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(auto-fill, minmax(250px, 1fr));
+}
+
+.slider-track {
+    width: 80dvw;
+    padding: 20px;
+    display: grid;
+    place-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+}
+}

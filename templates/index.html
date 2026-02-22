@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M'Immobili</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <link rel="stylesheet" href="../static/estilos/styleMobile.css" media="screen">
+    <link rel="stylesheet" href="../static/estilos/styleTablet.css" media="(min-width: 600px)">
+    <link rel="stylesheet" href="../static/estilos/stylePc.css" media="screen and (min-width: 900px)">
+    <link rel="shortcut icon" href="../static/imagens/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <section>
+            <article>
+                <nav class="barraNavegacao">
+                    <img src="../static/imagens/menu.png" alt="Menu" class="botoes" data-acao="abrirMenu">
+                    
+                    <img src="../static/imagens/logo.png" alt="Logo">
+                    
+                    <div>
+                        <img src="../static/imagens/carrinho.png" alt="Carrinho" id="carrinho" class="botoes" data-acao="verCarrinho">
+                        <div id="verCarrinho">
+                            
+                        </div>
+                        <span id="cont-carrinho">0</span>
+                    </div>
+
+                    <img src="../static/imagens/login.png" alt="Login" id="login" class="botoes" data-acao="fazerLogin">
+                </nav>
+                
+                <div class="menuAberto">
+                    <article class="navegacao">
+                        <img src="../static/imagens/menu_clicado.png" alt="Menu" class="botoes" id="menu" data-acao="abrirMenu">
+                        <p>Ir para</p>
+                        <img src="../static/imagens/arm.png" alt="Armazenamento" class="imagensInterface">
+                        <h2>
+                            <a href="#armazenamentoLocal">Armazenamento</a>
+                        </h2>
+                        <img src="../static/imagens/assent.png" alt="Assento/Repouso" class="imagensInterface">
+                        <h2>
+                            <a href="#assentoLocal">Assento e Repouso</a>
+                        </h2>
+                        <img src="../static/imagens/sup.png" alt="Superfície" class="imagensInterface">
+                        <h2>
+                            <a href="#superficieLocal">Superfície</a>
+                        </h2>
+                        <img src="../static/imagens/estr.png" alt="Estruturas/Suportes" class="imagensInterface">
+                        <h2>
+                            <a href="#estruturaLocal">Estruturas e Suportes</a>
+                        </h2>
+                    </article>
+
+                    <article class="meioMenu">
+                        <hr class="maior">
+                        <hr class="medio">
+                        <hr class="menor">
+                        <img src="../static/imagens/logo.png" alt="Logo" class="logoMenu">
+                        <hr class="menor">
+                        <hr class="medio">
+                        <hr class="maior">
+                    </article>
+
+                    <article class="rodapeMenu">
+                        <img src="../static/imagens/login_clicado.png" alt="Minha conta" class="imagemConta botoes" data-acao="fazerLogin">
+                        <p class="textoConta">
+                            Minha conta
+                        </p>
+                        <img src="../static/imagens/carrinho_clicado.png" alt="Meus produtos" class="imagemProdutos botoes" data-acao="verCompras">
+                        <p class="textoProdutos">
+                            Meus produtos
+                        </p>
+                        <img src="../static/imagens/chat.png" alt="Atendimento" class="imagemAtendimento botoes" data-acao="abrirSuporte">
+                        <p class="textoAtendimento">
+                            Atendimento
+                        </p>
+                    </article>
+                </div>
+        </section>
+    </header>
+    <main>
+        <section>
+            <article>
+                <h2 id="armazenamentoLocal"><a href="produtos.html?categoria=armazenamento">Armazenamento</a></h2>
+                <div class="slider-container">
+                    <ul class="slider-track" data-categoria="armazenamento">
+                        <li class="item">
+                            <div class="caixa">
+                                
+                            </div>  
+                            <p class="texto"></p>
+                            <img src="../static/imagens/carrinho.png" alt="Carrinho" class="botoes">
+                        </li>
+                        <li class="item">
+                            <div class="caixa">
+                            
+                            </div>
+                            <p class="texto"></p>
+                            <img src="../static/imagens/carrinho.png" alt="Carrinho" class="botoes">
+                        </li>
+                        <li class="item">
+                            <div class="caixa">
+
+                            </div>
+                            <p class="texto"></p>
+                            <img src="../static/imagens/carrinho.png" alt="Carrinho" class="botoes">
+                        </li>
+                        <li class="item">
+                            <div class="caixa">
+
+                            </div>
+                            <p class="texto"></p>
+                            <img src="../static/imagens/carrinho.png" alt="Carrinho" class="botoes">
+                        </li>
+                    </ul>
+                </div>
+            </article>
+            <article>
+                <h2 id="assentoLocal"><a href="produtos.html?categoria=assento">Assento e Repouso</a></h2>
+                <div class="slider-container">
+                    <ul class="slider-track" data-categoria="assento">
+                        <li class="item">
+                            <div class="caixa">
+
+                            </div>
+                            <p class="texto"></p>
+                            <img src="../static/imagens/carrinho.png" alt="Carrinho" class="botoes">
+                        </li>
+                        <li class="item">
+                            <div class="caixa">
+
+                            </div>
+                            <p class="texto"></p>
+                            <img src="../static/imagens/carrinho.png" alt="Carrinho" class="botoes">
+                        </li>
+                        <li class="item">
+                            <div class="caixa">
+
+                            </div>
+                            <p class="texto"></p>
+                            <img src="../static/imagens/carrinho.png" alt="Carrinho" class="botoes">
+                        </li>
+                        <li class="item">
+                            <div class="caixa">
+
+                            </div>
+                            <p class="texto"></p>
+                            <img src="../static/imagens/carrinho.png" alt="Carrinho" class="botoes">
+                        </li>
+                    </ul>
+                </div>
+            </article>
+            <article>
+                <h2 id="superficieLocal"><a href="produtos.html?categoria=superficie">Superfície</a></h2>
+                <div class="slider-container">
+                    <ul class="slider-track" data-categoria="superficie">
+                        <li class="item">
+                            <div class="caixa">
+
+                            </div>
+                            <p class="texto"></p>
+                            <img src="../static/imagens/carrinho.png" alt="Carrinho" class="botoes">
+                        </li>
+                        <li class="item">
+                            <div class="caixa">
+
+                            </div>
+                            <p class="texto"></p>
+                            <img src="../static/imagens/carrinho.png" alt="Carrinho" class="botoes">
+                        </li>
+                        <li class="item">
+                            <div class="caixa">
+
+                            </div>
+                            <p class="texto"></p>
+                            <img src="../static/imagens/carrinho.png" alt="Carrinho" class="botoes">
+                        </li>
+                        <li class="item">
+                            <div class="caixa">
+
+                            </div>
+                            <p class="texto"></p>
+                            <img src="../static/imagens/carrinho.png" alt="Carrinho" class="botoes">
+                        </li>
+                    </ul>
+                </div>
+            </article>
+            <article>
+                <h2 id="estruturaLocal"><a href="produtos.html?categoria=estrutura">Estruturas e Suporte</a></h2>
+                <div class="slider-container">
+                    <ul class="slider-track" data-categoria="estrutura">
+                        <li class="item">
+                            <div class="caixa">
+
+                            </div>
+                            <p class="texto"></p>
+                            <img src="../static/imagens/carrinho.png" alt="Carrinho" class="botoes">
+                        </li>
+                        <li class="item">
+                            <div class="caixa">
+
+                            </div>
+                            <p class="texto"></p>
+                            <img src="../static/imagens/carrinho.png" alt="Carrinho" class="botoes">
+                        </li>
+                        <li class="item">
+                            <div class="caixa">
+
+                            </div>
+                            <p class="texto"></p>
+                            <img src="../static/imagens/carrinho.png" alt="Carrinho" class="botoes">
+                        </li>
+                        <li class="item">
+                            <div class="caixa">
+
+                            </div>
+                            <p class="texto"></p>
+                            <img src="../static/imagens/carrinho.png" alt="Carrinho" class="botoes">
+                        </li>
+                    </ul>
+                </div>
+            </article>
+            <aside>
+                <img src="../static/imagens/chat.png" alt="Suporte" class="botoes" id="btnAbrirSuporte">
+        
+                <div class="suporteChat" id="painelSuporte">
+                <img src="../static/imagens/fechar.png" alt="Fechar" class="botoes" id="btnFecharSuporte">
+            
+                <div id="boxAuto">
+                    <p id="btnAutoatendimento">Autoatendimento</p>
+                </div>
+            
+                <div id="boxTicket">
+                    <p id="btnTicket">Enviar Ticket</p>
+                    </div>
+            
+                    <img src="../static/imagens/logo.png" alt="Logo">
+                </div>
+            </aside>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <article class="prim">
+                <p><strong>Atendimento Físico e Serviços online</strong></p>
+                <p>Assis Brasil, AC - Segunda a Sexta</p>
+                <p>immobbili@gmail.com - Segunda a Sexta</p>
+                <p>Autoatendimento - 24/7</p>
+            </article>
+            <article class="seg">
+                <p><strong>Pagamento</strong></p>
+                <img src="../static/imagens/logoPix.png" alt="Pix">
+            </article>
+            <article class="terc">
+                <div>
+                    <img src="../static/imagens/fundoFooter.png" alt="Fundo">
+                </div>
+                <p> &copy 2026 M'Immobbili rights reserved - create by Wesley Xavier</p>
+            </article>
+        </section>
+    </footer>
+
+    <script type="module" src="../static/script.js">
+
+    </script>
+</body>
+</html>

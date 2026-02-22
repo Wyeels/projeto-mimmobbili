@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pagamento PIX - Sua Loja</title>
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+
+    <style>
+        body {
+            font-family: sans-serif;
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+            background: #f4f7f6;
+        }
+
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            width: 100%;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .qr-img {
+            width: 200px;
+            height: 200px;
+            margin: 20px auto;
+            border: 1px solid #eee;
+            display: block;
+        }
+
+        .pix-code {
+            background: #eee;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 11px;
+            word-break: break-all;
+            margin-bottom: 15px;
+            border: 1px dashed #ccc;
+            color: #333;
+        }
+
+        .btn-copy {
+            background: #009ee3;
+            color: white;
+            border: none;
+            padding: 12px;
+            width: 100%;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+
+        .btn-copy:hover {
+            background: #0081bb;
+        }
+
+        .status-badge {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 8px 15px;
+            border-radius: 20px;
+            background: #fff3cd;
+            color: #856404;
+            font-size: 14px;
+            font-weight: bold;
+            transition: all 0.5s ease;
+        }
+
+        .sucesso {
+            background: #d4edda !important;
+            color: #155724 !important;
+            border: 1px solid #c3e6cb;
+        }
+
+        .qr-img.pago {
+            filter: grayscale(1);
+            opacity: 0.3;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="card">
+        <h2 id="titulo">Finalize seu Pagamento</h2>
+        <p id="instrucao">Escaneie o código abaixo com o app do seu banco:</p>
+
+        <img id="qrCodeImg" src="" alt="QR Code PIX" class="qr-img">
+
+        <p>Ou copie e cole este código:</p>
+        <div id="qrCodeTexto" class="pix-code">Carregando código...</div>
+
+        <button id="btnCopiar" class="btn-copy" onclick="copiarPix()">Copiar Código PIX</button>
+
+        <div class="status-badge" id="statusPagamento">Aguardando pagamento...</div>
+
+        <p style="margin-top: 20px; font-size: 13px; color: #666;">
+            Pedido: <strong id="numPedido">#000</strong><br>
+            Valor: <strong id="valorPedido">R$ 0,00</strong>
+        </p>
+    </div>
+
+    <script type="module" src="../static/tela-de-pagamentos.js">
+        
+    </script>
+
+</body>
+
+</html>

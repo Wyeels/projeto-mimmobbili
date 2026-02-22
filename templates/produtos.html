@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Produtos - Categoria</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    </script>
+    <link rel="stylesheet" href="../static/estilos/styleProdutos.css">
+    <link rel="stylesheet" href="../static/estilos/styleMobile.css" media="screen">
+    <link rel="stylesheet" href="../static/estilos/styleTablet.css" media="(min-width: 600px)">
+    <link rel="stylesheet" href="../static/estilos/stylePc.css" media="screen and (min-width: 900px)">
+    <link rel="shortcut icon" href="../static/imagens/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <section>
+            <article>
+                <nav class="barraNavegacao">
+                    <img src="../static/imagens/menu.png" alt="Menu" class="botoes" data-acao="abrirMenu">
+                    
+                    <img src="../static/imagens/logo.png" alt="Logo">
+                    
+                    <div>
+                        <img src="../static/imagens/carrinho.png" alt="Carrinho" id="carrinho" class="botoes" data-acao="verCarrinho">
+                        <div id="verCarrinho">
+                            
+                        </div>
+                        <span id="cont-carrinho">0</span>
+                    </div>
+
+                    <img src="../static/imagens/login.png" alt="Login" id="login" class="botoes" data-acao="fazerLogin">
+                </nav>
+                
+                <div class="menuAberto">
+                    <article class="navegacao">
+                        <img src="../static/imagens/menu_clicado.png" alt="Menu" class="botoes" id="menu" data-acao="abrirMenu">
+                        <p>Ir para</p>
+                        <img src="../static/imagens/arm.png" alt="Armazenamento" class="imagensInterface">
+                        <h2>
+                            <a href="">Armazenamento</a>
+                        </h2>
+                        <img src="../static/imagens/assent.png" alt="Assento/Repouso" class="imagensInterface">
+                        <h2>
+                            <a href="#">Assento e Repouso</a>
+                        </h2>
+                        <img src="../static/imagens/sup.png" alt="Superfície" class="imagensInterface">
+                        <h2>
+                            <a href="#">Superfície</a>
+                        </h2>
+                        <img src="../static/imagens/estr.png" alt="Estruturas/Suportes" class="imagensInterface">
+                        <h2>
+                            <a href="#">Estruturas e Suportes</a>
+                        </h2>
+                    </article>
+
+                    <article class="meioMenu">
+                        <hr class="maior">
+                        <hr class="medio">
+                        <hr class="menor">
+                        <img src="../static/imagens/logo.png" alt="Logo" class="logoMenu">
+                        <hr class="menor">
+                        <hr class="medio">
+                        <hr class="maior">
+                    </article>
+
+                    <article class="rodapeMenu">
+                        <img src="../static/imagens/login_clicado.png" alt="Minha conta" class="imagemConta botoes" data-acao="fazerLogin">
+                        <p class="textoConta">
+                            Minha conta
+                        </p>
+                        <img src="../static/imagens/carrinho_clicado.png" alt="Meus produtos" class="imagemProdutos botoes" data-acao="verCompras">
+                        <p class="textoProdutos">
+                            Meus produtos
+                        </p>
+                        <img src="../static/imagens/chat.png" alt="Atendimento" class="imagemAtendimento botoes" data-acao="abrirSuporte">
+                        <p class="textoAtendimento">
+                            Atendimento
+                        </p>
+                    </article>
+                </div>
+        </section>
+    </header>
+    <main class="container-categoria">
+        <div class="topo-categoria">
+            <h1 id="nome-categoria">Categoria</h1>
+            <p id="contador-produtos">0 produtos encontrados</p>
+        </div>
+
+        <section id="grid-estatico" class="grid-estatico">
+            <div class="slider-container">
+                <ul class="slider-track" id="slider-track">
+
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section>
+            <article class="prim">
+                <p><strong>Atendimento Físico e Serviços online</strong></p>
+                <p>Assis Brasil, AC - Segunda a Sexta</p>
+                <p>immobbili@gmail.com - Segunda a Sexta</p>
+                <p>Autoatendimento - 24/7</p>
+            </article>
+            <article class="seg">
+                <p><strong>Pagamento</strong></p>
+                <img src="../static/imagens/logoPix.png" alt="Pix">
+            </article>
+            <article class="terc">
+                <div>
+                    <img src="../static/imagens/fundoFooter.png" alt="Fundo">
+                </div>
+                <p> &copy 2026 M'Immobbili rights reserved - create by Wesley Xavier</p>
+            </article>
+        </section>
+    </footer>
+    <script type="module" src="../static/script.js">
+
+    </script>
+    <script type="module" src="../static/produtos.js">
+        
+    </script>
+        
+</body>
+</html>
