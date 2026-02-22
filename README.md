@@ -7,7 +7,7 @@
 <img width="1872" height="922" alt="paginaPrincipal" src="https://github.com/user-attachments/assets/ed7a6829-015a-4c5c-9537-91fe35cca6fd" />
 <p>Além disso, também foi implementado um menu superior que se fixa a parte superior da página enquanto o usuário desliza para verificar todos os itens disponíveis.</p>
 <img width="1872" height="922" alt="paginaPrincipalComMenuSuperior" src="https://github.com/user-attachments/assets/7772e797-0299-451e-bc19-98860306b3f9" />
-<p>Pra finalizar a apresentação principal, o rodapé com as informações de <strong>Suporte/strong>, <strong>Métodos de Pagamento</strong> e <strong>Créditos finais de direitos autorais</strong>.</p>
+<p>Pra finalizar a apresentação principal, o rodapé com as informações de <strong>Suporte</strong>, <strong>Métodos de Pagamento</strong> e <strong>Créditos finais de direitos autorais</strong>.</p>
 <img width="1872" height="921" alt="rodape" src="https://github.com/user-attachments/assets/ebc77479-60bb-497a-9a14-0ab5d64de49c" />
 
 <h2>Navegação</h2>
